@@ -25,6 +25,7 @@ body {
   justify-content: center;
   background-color: hsl(0, 0%, 98%);
   margin-right: 2%;
+  color: var(--darkBlue);
 }
 
 header {
@@ -81,15 +82,15 @@ section {
   section {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 1100px;
   }
 
   header h2 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   header h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
@@ -110,11 +111,13 @@ section {
 
 .title {
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .description {
   font-weight: 200;
   padding-bottom: 40px;
+  
 }
 
 .image {
